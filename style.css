@@ -85,7 +85,7 @@ nav{
   align-items: center;
   justify-content: center;
   gap: 50px;
-  
+  background-color: white;
 }
 .hero-1{
 
@@ -145,13 +145,14 @@ nav{
 
  @media screen and (max-width:576px) {
 
-
+*{overflow-x: hidden;}
   .hero{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 0px;
+    background-color: white;
     
   }
 
@@ -180,10 +181,12 @@ flex-direction: column;
   .hero-h1{
 
 text-align: center;
+
     
-    font-size: 56px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 0px;
+    padding: 20px;
     
   
     
@@ -193,35 +196,25 @@ text-align: center;
     display: none;
   }
  
-  /* .hero-p{
-    font-size: 20px;
-    text-align: center;
-  }
-   */
-  
-  
-  /* .hero-button{
-    width: 150px;
-    height: 50px;
+ 
+  .hero-button{
+    width: 120px;
+    height: 45px;
     background-color: rgb(0, 0, 0);
     color: white;
     border: 2px solid orange;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     padding: 10px;
-
     transition: transform .3s 0.05s;
    
    }
-   .hero-button:hover{
-     transform: scale(1.1);
-   
-   } */
-  
 
-
-
-
+   .hero-p{
+    font-size: 14px;
+    text-align: justify;
+    
+  }
 
  }
