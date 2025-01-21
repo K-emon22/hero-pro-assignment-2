@@ -86,7 +86,7 @@ nav{
   justify-content: center;
   gap: 50px;
   background-color: white;
-  border: 2px solid black;
+
 }
 .hero-1{
 
@@ -300,7 +300,7 @@ transition: transform .4s ;
   font-size: 50px;
   padding: 20px;
   margin-top: 80px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   font-weight: bold;
   color: white;
 }
@@ -355,7 +355,96 @@ transition: transform .4s ;
   
 }
 
+.last-head{
+display: flex;
+text-align: justify;
+justify-content: center;
+font-size: 46px;
+font-weight: 700;
+margin-bottom: 0;
+}
 
 
 
+.story-container h3{
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
+.story-container button{
+  width: 174px;
+  height: 38px;
+margin-left: 30px;
+border-radius: 10px;
+border: 2px solid black;
+position: relative;
+top: -19px;
+background-color: rgb(149, 178, 38);
+  
+}
+
+.story-container .one button{
+background-color: steelblue;
+}
+
+.one{grid-area: one;}
+.two{grid-area: two;}
+.three{grid-area: three;}
+.four{grid-area: four;}
+.five{ grid-area: five;}
+
+
+.story-container{
+  display: grid;
+  grid-template-areas: 
+  
+  
+  "one one two three"
+  "one one four five"
+  ;
+  max-width: 1000px;
+  gap: 10px;
+ 
+  margin-left: 100px;
+  margin-top: 0;
+  align-content: center;
+  text-align: start;
+
+
+}
+ .two, .three, .four, .five{
+  background-color: white;
+border-radius: 10px;
+  margin-bottom: 0;
+  height: 330px;
+  justify-content: center;
+  align-items: center;
+}
+.one{
+  background-color: white;
+border-radius: 10px;
+  margin-bottom: 0;
+  height: 670px;
+}
+
+
+.story-container img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px 10px 0 0px;
+  padding: 0;
+
+}
+
+
+
+.story-container h3, p{
+padding: 20px;
+}
+.color{
+
+  background: linear-gradient(to top,rgba(255, 166, 0, 0.404), rgb(255, 255, 255));
+}
