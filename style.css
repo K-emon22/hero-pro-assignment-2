@@ -229,6 +229,7 @@ text-align: center;
   justify-content: center;
   font-size: 45px;
   font-weight: 700;
+  
 }
  .curriculum{
   display: flex;
@@ -490,8 +491,12 @@ transition: transform .3s 0.05s;
 }
 
 .color{
-  background-color:linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%)
-  
+
+  background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3)),
+              url('./assets/bg.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 
 }
 
@@ -558,3 +563,87 @@ transition: transform .3s 0.05s;
 }
 
 
+
+
+
+.footer1 {
+margin: 0;
+display: flex;
+flex-direction: column;
+text-align: left;
+color: white;
+}
+
+.footer1 h3{
+  font-size: 26px;
+  width: 700;
+  text-align: left;
+}
+.last-logo{
+  display: flex;
+  gap: 10px;
+  text-align: left;
+}
+
+
+.last-logo img{
+width: 82px;
+height: 81px;
+}
+
+.footer2{
+  display: flex; flex-direction: column; 
+align-items: center;
+  justify-content: left;
+  color: white;
+
+  margin-right: 95px;
+}
+
+.footer2 a{
+text-decoration: none;
+color: white;
+}
+.footer2 h3 {
+  font-size: 26px;
+  width: 700;
+  text-align: left;
+  margin-left: 95px;
+
+}
+
+.footer3{
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
+  color: white;
+}
+.footer3 h3{
+  font-size: 26px;
+  width: 700;
+  text-align: left;
+}
+
+.last-list{
+
+
+  margin: 0;
+
+
+
+list-style: none; display: flex; align-items: start; flex-direction: column; gap: 20px;
+}
+
+
+.last{
+ 
+background-color: rgb(1, 172, 253);
+}
+
+.last{
+  padding: 100px;
+
+  display: grid; 
+  grid-template-columns: repeat(3,1fr);
+  justify-content: space-between;
+}
