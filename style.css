@@ -782,7 +782,7 @@ margin-top: 30px;
 }
 
 
-.footer1 h2{ font-size: 42px;
+.footer1 h2{ font-size: 40px;
   font-weight:700 ;
   margin-top: 0;
 margin-top: 0;
@@ -827,12 +827,21 @@ padding: 100px;
 }
 
 .footer1 h2{
-padding-right: 250px;
+padding-right: 0px;
+font-size: 30px;
 
 
 }
+br{
+  display: block;
+}
+.footer1 img{
+  width: 62px;
+  height: 62px;
+}
 .footer1 p{
   margin-bottom: 0;
+
 }
 .footer2{
   display: flex; flex-direction: column; 
