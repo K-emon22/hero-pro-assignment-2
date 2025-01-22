@@ -421,7 +421,6 @@ font-weight: 700;
 }
 
 
-
 .last-head{
 display: flex;
 text-align: justify;
@@ -675,6 +674,7 @@ color: white;
   font-size: 26px;
   width: 700;
   text-align: left;
+
 }
 .last-logo{
   display: flex;
@@ -785,6 +785,7 @@ margin-top: 30px;
   margin-top: 0;
 margin-top: 0;
 padding-top: 0;
+margin-bottom: 0;
 
 }
 
@@ -824,7 +825,8 @@ padding: 100px;
 }
 
 .footer1 h2{
-padding-right: 50px;
+padding-right: 250px;
+
 }
 
 .footer2{
