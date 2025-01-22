@@ -655,42 +655,70 @@ width: 82px;
 height: 81px;
 }
 
-.footer2{
-  display: flex; flex-direction: column; 
-align-items: center;
-  justify-content: left;
-  color: white;
+/* footer 2  footer 2  footer 2  footer 2  footer 2  footer 2   */
 
 
-}
+
+
+
 
 .footer2 a{
-text-decoration: none;
-color: white;
+  text-decoration: none;
+  color: white;
 
-}
-.footer2 h3 {
-  font-size: 26px;
-  width: 700;
-  text-align: left;
+  
+  }
+  .footer2 h3 {
+    font-size: 26px;
+    width: 700;
+    text-align: left;
+    padding-left: 50px;
+padding-bottom: 20px;
+  
+  }
+  .footer2 ul{
+    padding: 0;
 
 
+  }
+  
+
+
+/* fhjfjdfhg */
+
+
+
+
+
+.last{
+ 
+background-color: rgb(1, 172, 253);
 }
-.footer2 ul{
-  padding: 0;
-}
+
+
+
+
+
+
+
+
+/* footer 2  footer 2  footer 2  footer 2  footer 2   */
+
 
 .footer3{
   display: flex;
   flex-direction: column;
-  align-items: last baseline;
+  align-items: start;
   color: white;
+  /* margin-left: 50Px; */
 }
 .footer3 h3{
   font-size: 26px;
   width: 700;
   text-align: left;
 }
+
+
 
 .last-list{
 
@@ -702,19 +730,52 @@ color: white;
 list-style: none; display: flex; align-items: start; flex-direction: column; gap: 20px;
 justify-content: start;
 }
+ul{padding: 0;}
 
+/* list   fklasdjfgklajsgklasjgkljfgkdlsjfglkdfjgkldjg */
 
-.last{
- 
-background-color: rgb(1, 172, 253);
+ .footer2, .footer3{
+  margin-top: 0;
 }
 
-.last{
-  padding: 100px;
 
-  display: grid; 
-  grid-template-columns: repeat(3,1fr);
-  justify-content: space-between;
+
+.footer1{
+margin-top: 30px;
+
+
+}
+
+
+.footer1 h2{ font-size: 42px;
+  font-weight:700 ;
+  margin-top: 0;
+margin-top: 0;
+padding-top: 0;
+
+}
+
+.footer2{
+  
+  display: flex; flex-direction: column; 
+align-items:center ;
+justify-content: center;
+  color: white;
+
+
+
+
+}
+.last{
+/* padding: 100px; */
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+padding: 100px;
+
+}
+.footer2 h2{
+  margin-top: 0;
 }
 
 
@@ -729,6 +790,10 @@ background-color: rgb(1, 172, 253);
   padding: 20px;
 }
 
+.footer1 h2{
+padding-right: 50px;
+}
+
 .footer2{
   display: flex; flex-direction: column; 
 align-items: start;
@@ -737,6 +802,8 @@ align-items: start;
 
 
 }
+
+
 
 .footer2 a{
 text-decoration: none;
@@ -752,7 +819,9 @@ justify-content: left;
   width: 700;
   text-align: left;
 padding-left: 0px;
-
+margin-top: 0;
+padding-top: 0;
+padding-bottom: 0;
 }
 
 
@@ -776,6 +845,7 @@ ul{
 .footer3{
 display: flex;
 align-items: start;
+margin-left: 0Px;
 }
 
 
